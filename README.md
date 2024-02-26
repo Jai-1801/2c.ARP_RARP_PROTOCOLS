@@ -45,7 +45,7 @@ REG NO:
  print("MAC Address",s.recv(1024).decode()
 ```
 
-## OUPUT - ARP
+## OUTPUT - ARP
 
 ## CLIENT
 ![307534334-d31ec479-a0fa-456c-9af0-9794aa9e4790](https://github.com/Jai-1801/2c.ARP_RARP_PROTOCOLS/assets/139335300/1784468c-1983-4750-ae4b-ba278089a79e)
@@ -104,7 +104,7 @@ while True:
     s.send(ip.encode()) 
     print("Logical Address",s.recv(1024).decode())
 ```
-## OUPUT -RARP
+## OUTPUT -RARP
 
 ## CLIENT
 ![307534638-0e28f4ca-b4ce-4c03-82e8-925588037283](https://github.com/Jai-1801/2c.ARP_RARP_PROTOCOLS/assets/139335300/8393b5c1-f5af-4dea-987b-26c4f70cbb05)
